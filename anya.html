@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #c0a7d1;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(90, 75, 108);
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(87, 109, 62);
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Az én honlapom  <3</h1>
+  <p>Hackler Lili 9/F</p>
+</div>
+
+<div class="navbar">
+  <a href="#">have </a>
+  <a href="#">a  good</a>
+  <a href="#">day!</a>
+  <a href="#" class="right">fun fact : LARRY</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <p> </p>
+    <p> </p>
+  
+  </div>
+  <div class="main">
+   
+    <p>Some deep context i wanna share</p>
+    <a target="_blank" href="https://youtu.be/_JGGLJMpVks"> billie eilish - tv</a>
+    <p>I don't wanna talk right now
+      I just wanna watch TV
+      I'll stay in the pool and drown
+      So I don't have to watch you leave
+      I put on Survivor just to watch somebody suffer
+      Maybe I should get some sleep
+      Sinking in the sofa while they all betray each other
+      What's the point of anything?
+      All of my friends are missing again
+      That's what happens when you fall in love
+      You don't have the time, you leave them all behind
+      You tell yourself it's fine, you're just in love
+      Don't know where you are right now
+      Did you see me on TV?
+      I'll try not to starve myself
+      Just because you're mad at me
+      And I'll be in denial for at least a little while
+      What about the plans we made?
+      The internet's gone wild watching movie stars on trial
+      While they're overturning Roe v. Wade
+      Now all of my friends are missing again
+      'Cause that's what happens when you fall in love
+      You don't have the time, you leave them all behind
+      And you tell yourself it's fine, you're just in love
+      And I don't get along with anyone
+      Maybe I'm the problem
+      Maybe I'm the problem
+      Maybe I, maybe I, maybe I'm the problem
+      Maybe I, maybe I, maybe I'm the problem
+      Maybe I, maybe I, maybe I'm the problem
+      Maybe I, maybe I, maybe I'm the problem
+      Maybe I, maybe I, maybe I'm the problem
+      Maybe I, maybe I, maybe I'm the problem
+      Baby, I, baby, I, baby, I'm the problem
+      Baby, I, baby, I, baby, I'm the problem
+      Baby, I, baby, I, baby, I'm the problem
+      Baby, I, baby, I, baby, I'm the problem
+      Baby, I, baby, I, baby, I'm the problem</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>goofy</h2>
+</div>
+
+</body>
+</html>
